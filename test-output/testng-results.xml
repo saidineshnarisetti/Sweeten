@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="20" total="46" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60696" started-at="2019-04-29T07:03:41Z" finished-at="2019-04-29T07:04:42Z">
+    <groups>
+    </groups>
+    <test name="Chrome testing" duration-ms="29944" started-at="2019-04-29T07:03:41Z" finished-at="2019-04-29T07:04:11Z">
+      <class name="com.herokuapp.matchingalgo.sweeten.Edit_Logout">
+        <test-method status="PASS" signature="Verify_Edit()[pri:18, instance:com.herokuapp.matchingalgo.sweeten.Edit_Logout@757942a1]" name="Verify_Edit" duration-ms="3091" started-at="2019-04-29T07:04:04Z" finished-at="2019-04-29T07:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Edit -->
+        <test-method status="PASS" signature="Verify_Logout()[pri:19, instance:com.herokuapp.matchingalgo.sweeten.Edit_Logout@757942a1]" name="Verify_Logout" duration-ms="3921" started-at="2019-04-29T07:04:07Z" finished-at="2019-04-29T07:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logout -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Edit_Logout -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Renovation_Project">
+        <test-method status="PASS" signature="verifyRePrjct_header()[pri:11, instance:com.herokuapp.matchingalgo.sweeten.Renovation_Project@462d5aee]" name="verifyRePrjct_header" duration-ms="101" started-at="2019-04-29T07:03:48Z" finished-at="2019-04-29T07:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRePrjct_header -->
+        <test-method status="PASS" signature="verifyNewRePrjct()[pri:12, instance:com.herokuapp.matchingalgo.sweeten.Renovation_Project@462d5aee]" name="verifyNewRePrjct" duration-ms="3045" started-at="2019-04-29T07:03:48Z" depends-on-methods="com.herokuapp.matchingalgo.sweeten.Renovation_Project.verifyRePrjct_header" finished-at="2019-04-29T07:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewRePrjct -->
+        <test-method status="PASS" signature="Send_NewRePrjct_details()[pri:13, instance:com.herokuapp.matchingalgo.sweeten.Renovation_Project@462d5aee]" name="Send_NewRePrjct_details" duration-ms="3357" started-at="2019-04-29T07:03:51Z" finished-at="2019-04-29T07:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_NewRePrjct_details -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Renovation_Project -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Show_Edit_Matches">
+        <test-method status="PASS" signature="Verify_Find_Matches()[pri:15, instance:com.herokuapp.matchingalgo.sweeten.Show_Edit_Matches@69b0fd6f]" name="Verify_Find_Matches" duration-ms="3120" started-at="2019-04-29T07:03:54Z" finished-at="2019-04-29T07:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Find_Matches -->
+        <test-method status="PASS" signature="Verify_ReEdit_Projects()[pri:16, instance:com.herokuapp.matchingalgo.sweeten.Show_Edit_Matches@69b0fd6f]" name="Verify_ReEdit_Projects" duration-ms="3094" started-at="2019-04-29T07:03:57Z" finished-at="2019-04-29T07:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ReEdit_Projects -->
+        <test-method status="PASS" signature="Verify_ReUpdate_Projects()[pri:17, instance:com.herokuapp.matchingalgo.sweeten.Show_Edit_Matches@69b0fd6f]" name="Verify_ReUpdate_Projects" duration-ms="3685" started-at="2019-04-29T07:04:00Z" finished-at="2019-04-29T07:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ReUpdate_Projects -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Show_Edit_Matches -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Loginpage">
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.matchingalgo.sweeten.Loginpage@74ad1f1f]" name="verifylogin" duration-ms="1433" started-at="2019-04-29T07:03:46Z" finished-at="2019-04-29T07:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_ho@sweeten.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Signed in successfully.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Loginpage -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Header_footer">
+        <test-method status="PASS" signature="verifySweetenlogo_Usr()[pri:1, instance:com.herokuapp.matchingalgo.sweeten.Header_footer@6a1aab78]" name="verifySweetenlogo_Usr" duration-ms="20" started-at="2019-04-29T07:03:48Z" finished-at="2019-04-29T07:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySweetenlogo_Usr -->
+        <test-method status="PASS" signature="verifyEditProfile()[pri:2, instance:com.herokuapp.matchingalgo.sweeten.Header_footer@6a1aab78]" name="verifyEditProfile" duration-ms="20" started-at="2019-04-29T07:03:48Z" finished-at="2019-04-29T07:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditProfile -->
+        <test-method status="FAIL" signature="verifyFooter()[pri:3, instance:com.herokuapp.matchingalgo.sweeten.Header_footer@6a1aab78]" name="verifyFooter" duration-ms="50" started-at="2019-04-29T07:03:48Z" finished-at="2019-04-29T07:03:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Copyright © Sweeten 2019] but found [Copyright © Sweeten 2018]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Copyright © Sweeten 2019] but found [Copyright © Sweeten 2018]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.herokuapp.matchingalgo.sweeten.Header_footer.verifyFooter(Header_footer.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Header_footer -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Geturl">
+        <test-method status="PASS" signature="opendriver(java.lang.String)[pri:0, instance:com.herokuapp.matchingalgo.sweeten.Geturl@491cc5c9]" name="opendriver" is-config="true" duration-ms="2208" started-at="2019-04-29T07:03:41Z" finished-at="2019-04-29T07:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opendriver -->
+        <test-method status="PASS" signature="getUrl(java.lang.String)[pri:-1, instance:com.herokuapp.matchingalgo.sweeten.Geturl@491cc5c9]" name="getUrl" duration-ms="2659" started-at="2019-04-29T07:03:43Z" finished-at="2019-04-29T07:03:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sweeten-matching-algo.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.herokuapp.matchingalgo.sweeten.Geturl@491cc5c9]" name="terminateBrowser" is-config="true" duration-ms="105" started-at="2019-04-29T07:04:11Z" finished-at="2019-04-29T07:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Geturl -->
+    </test> <!-- Chrome testing -->
+    <test name="FireFox testing" duration-ms="30697" started-at="2019-04-29T07:04:11Z" finished-at="2019-04-29T07:04:42Z">
+      <class name="com.herokuapp.matchingalgo.sweeten.Show_Edit_Projects">
+        <test-method status="PASS" signature="Verify_Show_Projects()[pri:8, instance:com.herokuapp.matchingalgo.sweeten.Show_Edit_Projects@42607a4f]" name="Verify_Show_Projects" duration-ms="3283" started-at="2019-04-29T07:04:24Z" finished-at="2019-04-29T07:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Show_Projects -->
+        <test-method status="PASS" signature="Verify_Edit_Projects()[pri:9, instance:com.herokuapp.matchingalgo.sweeten.Show_Edit_Projects@42607a4f]" name="Verify_Edit_Projects" duration-ms="3260" started-at="2019-04-29T07:04:27Z" finished-at="2019-04-29T07:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Edit_Projects -->
+        <test-method status="PASS" signature="Verify_Update_Projects()[pri:10, instance:com.herokuapp.matchingalgo.sweeten.Show_Edit_Projects@42607a4f]" name="Verify_Update_Projects" duration-ms="3884" started-at="2019-04-29T07:04:30Z" finished-at="2019-04-29T07:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Update_Projects -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Show_Edit_Projects -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Edit_Logout">
+        <test-method status="PASS" signature="Verify_Edit()[pri:18, instance:com.herokuapp.matchingalgo.sweeten.Edit_Logout@782663d3]" name="Verify_Edit" duration-ms="3260" started-at="2019-04-29T07:04:34Z" finished-at="2019-04-29T07:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Edit -->
+        <test-method status="PASS" signature="Verify_Logout()[pri:19, instance:com.herokuapp.matchingalgo.sweeten.Edit_Logout@782663d3]" name="Verify_Logout" duration-ms="4056" started-at="2019-04-29T07:04:37Z" finished-at="2019-04-29T07:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logout -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Edit_Logout -->
+      <class name="com.herokuapp.matchingalgo.sweeten.General_contractor">
+        <test-method status="PASS" signature="verifyCnt_header()[pri:4, instance:com.herokuapp.matchingalgo.sweeten.General_contractor@4fb64261]" name="verifyCnt_header" duration-ms="261" started-at="2019-04-29T07:04:20Z" finished-at="2019-04-29T07:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCnt_header -->
+        <test-method status="PASS" signature="verifyNew_Cnt()[pri:5, instance:com.herokuapp.matchingalgo.sweeten.General_contractor@4fb64261]" name="verifyNew_Cnt" duration-ms="3032" started-at="2019-04-29T07:04:20Z" depends-on-methods="com.herokuapp.matchingalgo.sweeten.General_contractor.verifyCnt_header" finished-at="2019-04-29T07:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNew_Cnt -->
+        <test-method status="PASS" signature="Send_Cnt_details()[pri:6, instance:com.herokuapp.matchingalgo.sweeten.General_contractor@4fb64261]" name="Send_Cnt_details" duration-ms="236" started-at="2019-04-29T07:04:23Z" finished-at="2019-04-29T07:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_Cnt_details -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.General_contractor -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Loginpage">
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.matchingalgo.sweeten.Loginpage@365185bd]" name="verifylogin" duration-ms="1477" started-at="2019-04-29T07:04:19Z" finished-at="2019-04-29T07:04:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_gc@sweeten.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Signed in successfully.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Loginpage -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Header_footer">
+        <test-method status="PASS" signature="verifySweetenlogo_Usr()[pri:1, instance:com.herokuapp.matchingalgo.sweeten.Header_footer@18bf3d14]" name="verifySweetenlogo_Usr" duration-ms="38" started-at="2019-04-29T07:04:20Z" finished-at="2019-04-29T07:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySweetenlogo_Usr -->
+        <test-method status="PASS" signature="verifyEditProfile()[pri:2, instance:com.herokuapp.matchingalgo.sweeten.Header_footer@18bf3d14]" name="verifyEditProfile" duration-ms="30" started-at="2019-04-29T07:04:20Z" finished-at="2019-04-29T07:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditProfile -->
+        <test-method status="FAIL" signature="verifyFooter()[pri:3, instance:com.herokuapp.matchingalgo.sweeten.Header_footer@18bf3d14]" name="verifyFooter" duration-ms="19" started-at="2019-04-29T07:04:20Z" finished-at="2019-04-29T07:04:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Copyright © Sweeten 2019] but found [Copyright © Sweeten 2018]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Copyright © Sweeten 2019] but found [Copyright © Sweeten 2018]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.herokuapp.matchingalgo.sweeten.Header_footer.verifyFooter(Header_footer.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Header_footer -->
+      <class name="com.herokuapp.matchingalgo.sweeten.Geturl">
+        <test-method status="PASS" signature="opendriver(java.lang.String)[pri:0, instance:com.herokuapp.matchingalgo.sweeten.Geturl@7e0e6aa2]" name="opendriver" is-config="true" duration-ms="3453" started-at="2019-04-29T07:04:11Z" finished-at="2019-04-29T07:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opendriver -->
+        <test-method status="PASS" signature="getUrl(java.lang.String)[pri:-1, instance:com.herokuapp.matchingalgo.sweeten.Geturl@7e0e6aa2]" name="getUrl" duration-ms="3896" started-at="2019-04-29T07:04:15Z" finished-at="2019-04-29T07:04:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sweeten-matching-algo.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.herokuapp.matchingalgo.sweeten.Geturl@7e0e6aa2]" name="terminateBrowser" is-config="true" duration-ms="494" started-at="2019-04-29T07:04:41Z" finished-at="2019-04-29T07:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Geturl -->
+    </test> <!-- FireFox testing -->
+  </suite> <!-- Suite -->
+</testng-results>

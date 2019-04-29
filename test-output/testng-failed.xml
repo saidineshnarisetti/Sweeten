@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Chrome testing(failed)">
+    <parameter name="password" value="password"/>
+    <parameter name="Loginmsg" value="Signed in successfully."/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://sweeten-matching-algo.herokuapp.com/"/>
+    <parameter name="username" value="test_ho@sweeten.com"/>
+    <classes>
+      <class name="com.herokuapp.matchingalgo.sweeten.Header_footer">
+        <methods>
+          <include name="opendriver"/>
+          <include name="verifyFooter"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Header_footer -->
+    </classes>
+  </test> <!-- Chrome testing(failed) -->
+  <test thread-count="5" name="FireFox testing(failed)">
+    <parameter name="password" value="password"/>
+    <parameter name="Loginmsg" value="Signed in successfully."/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="https://sweeten-matching-algo.herokuapp.com/"/>
+    <parameter name="username" value="test_gc@sweeten.com"/>
+    <classes>
+      <class name="com.herokuapp.matchingalgo.sweeten.Header_footer">
+        <methods>
+          <include name="opendriver"/>
+          <include name="verifyFooter"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.herokuapp.matchingalgo.sweeten.Header_footer -->
+    </classes>
+  </test> <!-- FireFox testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

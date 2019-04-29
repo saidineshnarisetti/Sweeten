@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name = "Chrome testing">
+ 	<parameter name="browser" value="Chrome"/>
+ 	<!--Home Owner(HO) role is logging through Chrome browser -->
+ 	<parameter name="url" value="https://sweeten-matching-algo.herokuapp.com/"/>
+ 	<parameter name="username" value="test_ho@sweeten.com"/>
+   <parameter name="password" value="password"/>
+   <parameter name="Loginmsg" value="Signed in successfully."/>
+   <classes>
+       <class name="com.herokuapp.matchingalgo.sweeten.Geturl"/> 
+       <class name="com.herokuapp.matchingalgo.sweeten.Loginpage"/>
+       <class name="com.herokuapp.matchingalgo.sweeten.Header_footer"/> 
+       <class name="com.herokuapp.matchingalgo.sweeten.Renovation_Project"/>
+       <class name="com.herokuapp.matchingalgo.sweeten.Show_Edit_Matches"/>
+       <class name="com.herokuapp.matchingalgo.sweeten.Edit_Logout"/>
+    </classes>
+  </test>
+  
+ <test name = "FireFox testing">
+  <parameter name="browser" value="Firefox"/>
+  <!-- General Contractor(GC) role is logging through Firefox browser -->
+  <parameter name="url" value="https://sweeten-matching-algo.herokuapp.com/"/>
+   <parameter name="username" value="test_gc@sweeten.com"/>
+   <parameter name="password" value="password"/>
+   <parameter name="Loginmsg" value="Signed in successfully."/>
+   <classes>
+       <class name="com.herokuapp.matchingalgo.sweeten.Geturl"/> 
+       <class name="com.herokuapp.matchingalgo.sweeten.Loginpage"/> 
+       <class name="com.herokuapp.matchingalgo.sweeten.Header_footer"/> 
+       <class name="com.herokuapp.matchingalgo.sweeten.General_contractor"/> 
+       <class name="com.herokuapp.matchingalgo.sweeten.Show_Edit_Projects"/> 
+        <class name="com.herokuapp.matchingalgo.sweeten.Edit_Logout"/>
+    </classes>
+ </test>
+</suite> 
+
+
